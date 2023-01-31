@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+   <html lang="en-us">
+    <head>
+     <meta charset="utf-8">
+     <meta http-equiv="x-ua-compatible"
+     content="IE=edge,chrome=1">
+     <Meta name="viewpoint"content="width-device-width">
+     <title>Silly Story generator</title>
+     <script>
+          document.querySelector("index.html").style.background ='red'
+ 
+constcustomName= document.getElementByid('Custom name');
+      const randomize= document.querySelector('.randomize');
+      const story=document.querySelector('.story');
+FunctionrandomValuefromArray(array)
+{const random= math.floor(math.random()array length)
+;
+return array [random];}
+
+RAW TEXT STRINGS
+ It was 94 Fahrenheit outside , so : insert x: went for a walk . when they got to :insert y:,they started in horror for a few moments,then:insert z: Bob saw the whole thin,but was not surprised-:insert x: weight 300 pounds ,and it was a hot day.
+ 
+ willy the Goblin
+ Big Daddy
+ father Christmas
+ the soup kitchen
+ Disney land
+ the white house
+ spontaneously combusted
+ melted into a puddle on the side walkturned into a puddleand crawled back
+ Event listener and partial function definition
+ randomize.addEventlistener('Click',result)
+ function result(){
+     if (customName.value!==''){
+         const name=customName.Value;
+     }
+     if(document.getElementById('Uk')checked){
+      const weight=Math.round(300);
+      const temperature=Marh.round(94)
+   ;  }
+ Story.textcontent=;
+ Story.style.visibility='visible'
+}
+     </script>
+     <style>
+         body{
+             font-family: helvetica,sans-serif;
+    width:350 px;
+         }
+        Label{
+              font-weight:bold;
+        }
+        div{padding-bottom:
+        20 px;}
+        Input[type="text"]{
+            padding:5 px; width:150 px; }
+       p{
+         background:#ffc125;
+         color:#5E2612;
+         padding: 10 px;
+         visibility:hidden;
+         }
+     </style>
+    </head>
+    <body>
+     <div>
+        <label for="Custom name">Enter custom name </label>
+        <Input id="Custom name"type="text" placeholder="">
+     </div>
+     <label for="Us">US</label><Input id="US" type="radio"name="ukus" value="us"checked>
+     <label for="uk">uk</label><input id="uk"type="radio" name="ukus" value="uk">
+     </div>
+     <div>
+         <button class="randosize">
+      Generate random story
+         </button>
+     </div>
+     <p class="story"></p>
+     </body>
+   </html>
